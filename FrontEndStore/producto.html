@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <link rel="stylesheet" href="/assets/js/app.js" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/index.html">
+        <img class="header__logo" src="/assets/img/logo.png" alt="Logotipo" />
+      </a>
+    </header>
+    <nav class="navegation">
+      <a class="navegation__link navegation__link--focus" href="index.html">Tienda</a>
+      <a class="navegation__link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>React JS</h1>
+      <div class="camisa">
+        <img class="camisa__imagen" src="/assets/img/3.jpg" alt="" />
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, amet numquam? Deserunt aut nemo quas vel? Facere, vitae autem dignissimos itaque deleniti ipsam
+            provident. Tempore!
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>--Seleccionar Talla--</option>
+              <option>Chica</option>
+              <option>Mediana</option>
+              <option>Grande</option>
+            </select>
+            <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" />
+            <button class="formulario__submit" type="submit">Enviar al carrito</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">Front End Store - Todo los derechos reservado by Paulson</p>
+    </footer>
+  </body>
+</html>
