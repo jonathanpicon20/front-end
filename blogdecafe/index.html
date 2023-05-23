@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet" />
+
+    <!--prefetch-->
+    <link rel="prefetch" href="nosotros.html" as="document" />
+    <!--PRELOAD-->
+
+    <link rel="preload" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+
+    <link rel="preload" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <a href="/index.html" class="logo">
+            <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+          </a>
+          <nav class="navegacion">
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__texto">
+        <h2 class="no-margin">Blog de café, consejos y cursos</h2>
+        <p class="no-margin">Aprende de los mejores experor, y sumerjete en este mundo.</p>
+        <a href="contacto.html">Contactanos</a>
+      </div>
+    </header>
+    <!--AQUI TERMINA EL HEADER-->
+    <div class="contenedor contenido-principal">
+      <main class="blog">
+        <h3>Nuestro Blog</h3>
+        <article class="entrada">
+          <div class="entrada__img">
+            <img loading="lazy" src="/assets/img/blog1.jpg" alt="imagen blog" />
+          </div>
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Tipos de granos de café</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at? Magnam tenetur tempore harum earum repudiandae pariatur qui neque voluptas facilis ea ab cupiditate
+              omnis, dolores sint illum! Totam, inventore. Eveniet sint optio fugiat, ad recusandae, soluta sed a nobis ut, saepe provident. At sed ut rerum aliquam molestias
+              corrupti.
+            </p>
+            <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+          </div>
+        </article>
+        <!--AQUI TERMINA ENTRADA-->
+        <article class="entrada">
+          <div class="entrada__img">
+            <img loading="lazy" src="/assets/img/blog2.jpg" alt="imagen blog" />
+          </div>
+          <div class="entrada__contenido">
+            <h4 class="no-margin">3 deliciosas recetas</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at? Magnam tenetur tempore harum earum repudiandae pariatur qui neque voluptas facilis ea ab cupiditate
+              omnis, dolores sint illum! Totam, inventore. Eveniet sint optio fugiat, ad recusandae, soluta sed a nobis ut, saepe provident. At sed ut rerum aliquam molestias
+              corrupti.
+            </p>
+            <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+          </div>
+        </article>
+        <!--AQUI TERMINA ENTRADA-->
+        <article class="entrada">
+          <div class="entrada__img">
+            <img loading="lazy" src="/assets/img/blog3.jpg" alt="imagen blog" />
+          </div>
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Tipos de granos de café</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at? Magnam tenetur tempore harum earum repudiandae pariatur qui neque voluptas facilis ea ab cupiditate
+              omnis, dolores sint illum! Totam, inventore. Eveniet sint optio fugiat, ad recusandae, soluta sed a nobis ut, saepe provident. At sed ut rerum aliquam molestias
+              corrupti.
+            </p>
+            <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+          </div>
+        </article>
+        <!--AQUI TERMINA ENTRADA-->
+      </main>
+      <aside class="sidebar">
+        <h3>Nuestros cursos y talleres</h3>
+        <ul class="cursos no-padding">
+          <li class="widget-curso">
+            <h4 class="no-margin">Tecnicas de extraccion de café</h4>
+            <p class="widget-curso__label">Precio: <span class="widget-curso__info">Gratis</span></p>
+            <p class="widget-curso__label">Cupo: <span class="widget-curso__info">20</span></p>
+            <a href="entrada.html" class="boton boton--secundario">Más informacion</a>
+          </li>
+          <li class="widget-curso">
+            <h4 class="no-margin">4 Recetas de café para principiantes</h4>
+            <p class="widget-curso__label">Precio: <span class="widget-curso__info">Gratis</span></p>
+            <p class="widget-curso__label">Cupo: <span class="widget-curso__info">20</span></p>
+            <a href="entrada.html" class="boton boton--secundario">Más informacion</a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="barra">
+          <a href="/index.html" class="logo">
+            <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+          </a>
+          <nav class="navegacion">
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
